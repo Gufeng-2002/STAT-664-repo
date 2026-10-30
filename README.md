@@ -7,35 +7,6 @@ A reproducible Monte Carlo study of testing for slope changes in a conditional q
 - [`Quantile_Breakpoint_Simulation.ipynb`](Quantile_Breakpoint_Simulation.ipynb) — fully executed notebook including code, tables and plots.
 - [`images/`](images/) — nine original 300-dpi PNG figures exported from the notebook.
 
-## Figures
-
-### 1. Synthetic dataset and true two-kink conditional quantile
-![Synthetic sample](images/01_simulated_data.png)
-
-### 2. Design validation
-![Design check](images/02_design_check.png)
-
-### 3. Detector fit and joint breakpoint search
-![Detector fit](images/03_detector_fit.png)
-
-### 4. Null calibration of the test statistic
-![Null versus alternative CDF](images/04_test_statistic_cdf.png)
-
-### 5. Power versus kink strength
-![Power vs strength](images/05_power_vs_strength.png)
-
-### 6. Power versus sample size
-![Power vs sample size](images/06_power_vs_sample_size.png)
-
-### 7. Predictor densities near the breakpoints
-![Density design](images/07_x_density_by_near_share.png)
-
-### 8. Sparse sampling example
-![Sparse sampling example](images/08_sparse_sampling_example.png)
-
-### 9. Power versus sampling concentration near breakpoints
-![Power vs local sampling](images/09_power_vs_near_share.png)
-
 ## Method
 
 - True target quantile: `tau* = 0.8`.
